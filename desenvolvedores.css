@@ -1,0 +1,77 @@
+*,html,h1{
+    margin:0;
+}
+body{
+    text-align:center;
+    background-color:lightgray;
+}
+/* menuzin pra editar a barra do menu */
+#menuzin{
+    background-color: black;
+    height:50px;
+    width:75%;
+    float:right;
+    font: 15pt Verdana;
+}
+
+/* cada link que está no menu*/
+.divmenu{
+    display:block;
+    float:left;
+    margin-left:150px;
+    margin-top:10px;
+    text-decoration: none;
+    color:white;
+}
+.divmenu:hover{
+    color:grey;
+}
+/* div do titulo*/
+#título{
+    height:50px;
+    margin-left:0;
+    width:25%;
+    float:left;
+    margin-bottom:0;
+    background-color: green;
+
+}
+/* o titulo*/
+h1{
+    margin-left:0;
+    font: 35pt Arial;
+    font-weight:bolder;
+    color:white;
+}
+/* TUDO DESSE PONTO PRA CIMA FAZ PARTE DO ESTILO DO MENU*/
+
+th,tr,td{
+    border: 2px solid black;
+    padding:10px;
+    font: 12pt Verdana;
+
+}
+table{
+    display:block;
+    float:right;
+    margin-right:10%;
+    border-radius:20px;
+    border: 4px solid black;
+    padding:10px;
+
+}
+img{
+    border:2px solid black;
+}
+th{
+    background-color:lightblue;
+    font-weight: bolder;
+}
+
+h2{
+    float:left;
+    margin-left:5%;
+    font-weight: bolder;
+    font:40pt Verdana;
+    margin-top:200px;
+}

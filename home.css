@@ -1,0 +1,112 @@
+*,html,h1{
+    margin:0;
+}
+body{
+    text-align:center;
+    background-color:lightgray;
+}
+/* menuzin pra editar a barra do menu */
+#menuzin{
+    background-color: black;
+    height:50px;
+    width:75%;
+    float:right;
+    font: 15pt Verdana;
+    border-bottom: 1px solid green;
+}
+
+/* cada link que está no menu*/
+.divmenu{
+    display:block;
+    float:left;
+    margin-left:150px;
+    margin-top:10px;
+    text-decoration: none;
+    color:white;
+}
+.divmenu:hover{
+    color:grey;
+}
+/* div do titulo*/
+#título{
+    height:50px;
+    margin-left:0;
+    width:25%;
+    float:left;
+    margin-bottom:0;
+    background-color: green;
+
+}
+/* o titulo*/
+h1{
+    margin-left:0;
+    font: 35pt Arial;
+    font-weight:bolder;
+    color:white;
+}
+/* TUDO DESSE PONTO PRA CIMA FAZ PARTE DO ESTILO DO MENU*/
+
+#resumo{
+    background-color: black;
+    display:block;
+    float:left;
+    width:55%;
+    margin-left:30px;
+    margin-top:100px;
+    border-radius:15px;
+
+}
+#texto{
+    color:white;
+    font: 20pt Verdana;
+    text-align: justify;
+    padding:10px;
+}
+
+iframe{
+    display:block;
+    float:right;
+    margin-right:30px;
+    margin-top:100px;
+    border-radius:15px;
+}
+
+/*div da palavra "controles*/
+#palavraControles{
+    display:block;
+    float:left;
+    margin-top:200px;
+    width: 25%;
+    margin-bottom:300px;
+}
+
+/*a palavra controles em si*/
+#controles{
+
+    font:60pt Verdana;
+    margin-left:100px;
+}
+#ibagens{
+    display:block;
+    float:right;
+    width:60%;
+    margin-top:100px;
+    margin-bottom:300px;
+}
+.imgcontroles{
+    border: 1px solid black;
+
+}
+#finaldapg{
+    background-color:black;
+    width:100%;
+    height:50px;
+    margin-top:1000px;
+    color:white;
+
+}
+.textofinal{
+    font:15pt Verdana;
+    padding:10px;
+
+}

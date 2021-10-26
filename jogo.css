@@ -1,0 +1,95 @@
+*,html,h1{
+    margin:0;
+}
+body{
+    text-align:center;
+    background-color:lightgray;
+}
+/* menuzin pra editar a barra do menu */
+#menuzin{
+    background-color: black;
+    height:50px;
+    width:75%;
+    float:right;
+    font: 15pt Verdana;
+}
+
+/* cada link que está no menu*/
+.divmenu{
+    display:block;
+    float:left;
+    margin-left:150px;
+    margin-top:10px;
+    text-decoration: none;
+    color:white;
+}
+.divmenu:hover{
+    color:grey;
+}
+/* div do titulo*/
+#título{
+    height:50px;
+    margin-left:0;
+    width:25%;
+    float:left;
+    margin-bottom:0;
+    background-color: green;
+
+}
+/* o titulo*/
+h1{
+    margin-left:0;
+    font: 35pt Arial;
+    font-weight:bolder;
+    color:white;
+}
+/* TUDO DESSE PONTO PRA CIMA FAZ PARTE DO ESTILO DO MENU*/
+
+canvas{
+    background-color: black;
+    display:block;
+    float:left;
+    margin-left:50px;
+
+}
+#botao{
+    height:60px;
+    width:200px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px;
+    background-color:mediumpurple;
+    color:white;
+    border:none;
+    font:20pt Arial;
+}
+
+#botao:hover{
+    background-color:purple;
+}
+#img1{
+    display:block;
+    float:right;
+    margin-right:50px;
+
+}
+#img2{
+    display:block;
+    float:right;
+    margin-right:50px;
+
+}
+#objetivo{
+    width:300px;
+    display:block;
+    float:right;
+    margin-right:50px;
+    margin-bottom:10px;
+    background-color: white;
+}
+p{
+    font:13pt Verdana;
+    text-align: justify;
+    padding:3px 3px;
+}
