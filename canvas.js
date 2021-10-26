@@ -55,10 +55,10 @@ var o_cima = {
 }
 //imagens bloquins
 let img_verde = new Image()
-img_verde.src="blocoverde.png"
+img_verde.src="img/blocoverde.png"
 
 let img_roxo = new Image()
-img_roxo.src="blocoroxo.png"
+img_roxo.src="img/blocoroxo.png"
 
 
 //keydown pra quando a tecla estiver pressionada//
